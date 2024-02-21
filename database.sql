@@ -1,4 +1,6 @@
-CREATE DATABASE kider_db;
+CREATE DATABASE kider_db
+
+use kider_db;
 
 CREATE TABLE CONTA (
     Login VARCHAR(255),

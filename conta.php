@@ -22,23 +22,9 @@
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <!-- Template Stylesheet -->
       <link href="css/style.css" rel="stylesheet">
-      <!-- JavaScript Libraries -->
-      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-      <script src="lib/wow/wow.min.js"></script>
-      <script src="lib/easing/easing.min.js"></script>
-      <script src="lib/waypoints/waypoints.min.js"></script>
-      <script src="lib/owlcarousel/owl.carousel.min.js"></script>
    </head>
    <body>
       <div class="container-xxl bg-white p-0">
-         <!-- Spinner Start -->
-         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-               <span class="sr-only">Carregando...</span>
-            </div>
-         </div>
-         <!-- Spinner End -->
          <!-- Navbar Start -->
          <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
             <a href="index.php" class="navbar-brand">
@@ -71,37 +57,37 @@
                   <div class="row g-0">
                      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                         <div class="h-100 d-flex flex-column justify-content-center p-5">
-                           <h1 class="mb-4">Seja um professor da Kider</h1>
-                           <form name="formProf" action="cadastro_professor_salvar.php" method="post">
+                           <h1 class="mb-4">Sua conta</h1>
+                           <form action="conta_salvar.php" method="post">
                               <div class="row g-3">
                                  <div class="col-sm-12">
                                     <div class="form-floating">
-                                       <input type="text" class="form-control border-0" id="gname" placeholder="Nome" name="Nome">
-                                       <label for="gname">Nome</label>
+                                       <input type="text" class="form-control border-0" id="gname" placeholder="login" name="Login">
+                                       <label for="gname">Login</label>
                                     </div>
                                  </div>
                                  <div class="col-sm-6">
                                     <div class="form-floating">
-                                       <input type="text" class="form-control border-0" id="gmail" placeholder="Formacao" name="Formacao">
-                                       <label for="gmail">Formação</label>
+                                       <input type="password" class="form-control border-0" id="gmail" placeholder="Senha" name="Senha">
+                                       <label for="gmail">Senha</label>
                                     </div>
                                  </div>
                                  <div class="col-sm-6">
                                     <div class="form-floating">
-                                       <input type="text" class="form-control border-0" id="cname" placeholder="TempoExperiencia" name="TempoExperiencia">
-                                       <label for="cname">Tempo de Experiência</label>
+                                       <input type="text" class="form-control border-0" id="cname" placeholder="Nome Completo" name="NomeCompleto">
+                                       <label for="cname">Nome Completo</label>
                                     </div>
                                  </div>
                                  <div class="col-sm-12">
                                     <div class="form-floating">
-                                       <input type="text" class="form-control border-0" id="cage" placeholder="EscolaAnterior" name="EscolaAnterior">
-                                       <label for="cage">Escola Anterior</label>
+                                       <input type="email" class="form-control border-0" id="cage" placeholder="Email" name="Email">
+                                       <label for="cage">Email</label>
                                     </div>
                                  </div>
                                  <div class="col-sm-12">
                                     <div class="form-floating">
-                                       <input type="text" class="form-control border-0" id="cage" placeholder="TurnoDisponivel" name="TurnoDisponivel">
-                                       <label for="cage">Turno Disponível</label>
+                                       <input type="number" class="form-control border-0" id="cage" placeholder="Telefone" name="Telefone">
+                                       <label for="cage">Telefone</label>
                                     </div>
                                  </div>
                                  <div class="col-12">
